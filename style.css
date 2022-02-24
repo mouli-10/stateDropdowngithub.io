@@ -1,0 +1,21 @@
+.container{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.state, .district{
+    float: left;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'roboto';
+    font-weight: 500px;
+}
+select{
+    border: 1px solid #555;
+    height: 48px;
+    width:200px;
+    padding: 0 15px;
+    margin-right: 20px;
+}

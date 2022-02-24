@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"  defer></script>
+</head>
+<body>
+    <div class='container'>
+
+        <div class='state'>
+            <label for=''>State</label>
+            <select name='slct1' id='slct1' onchange="populate(this.id,'slct2')">
+                <option value=''>--choose State--</option>
+                <option value='haryana'>HARYANA</option>
+                <option value='west bengal'>WEST BENGAL</option>
+                <option value='kerala'>KERALA</option>
+                <option value='tamilnadu'>TAMILNADU</option>
+            </select>
+        </div>
+
+        <div class='district'> 
+            <label for=''>District</label>
+            <select name='slct2' id='slct2'></select>
+        </div>
+    </div>
+</body>
+</html>
